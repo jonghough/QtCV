@@ -13,8 +13,7 @@ Dependencies
 Project built using Qt 5.x
 
 ##Purpose
-The project contains OpenCV algorithm samples, taken from various sources. The purpose is to keep a repository of useful algorithms
-and keep a reference project showing how to integrate Qt with OpenCV.
+The project contains OpenCV algorithm samples, taken from various sources. The purpose is to keep a repository of useful algorithms and sample applications of algorithms, and to keep a reference project showing how to integrate Qt with OpenCV.
 
 ##Some included algorithms
 * Edge detection
@@ -29,3 +28,11 @@ and keep a reference project showing how to integrate Qt with OpenCV.
 * object detection
 * OpenCL
   
+## Sources
+Some algorithms were taken and / or modified from
+
+*opencv.org*
+
+*OpenCV 2 Computer Vision Application Programming Cookbook*
+
+*Mastering OpenCV*
