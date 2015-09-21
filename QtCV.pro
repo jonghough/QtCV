@@ -7,53 +7,53 @@ TARGET = QtCV
 INCLUDEPATH += .
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 # Input
-HEADERS += Canny.h \
-           Cartoonifier.h \
-           cornerfinder.h \
-           edgedetectwindow.h \
-           facerecognizer.h \
-           featuredetector.h \
-           featurewindow.h \
-           filters.h \
-           grabcut.h \
-           imagehandler.h \
-           imageholder.h \
-           laplace.h \
-           mainwindow.h \
-           morpher.h \
-           pixelate.h \
-           projectivetransforms.h \
-           rippleeffect.h \
-           sobel.h \
-           watershed.h \
-           watershedsegmenter.h
+HEADERS += src/Canny.h \
+           src/Cartoonifier.h \
+           src/cornerfinder.h \
+           src/edgedetectwindow.h \
+           src/facerecognizer.h \
+           src/featuredetector.h \
+           src/featurewindow.h \
+           src/filters.h \
+           src/grabcut.h \
+           src/imagehandler.h \
+           src/imageholder.h \
+           src/laplace.h \
+           src/mainwindow.h \
+           src/morpher.h \
+           src/pixelate.h \
+           src/projectivetransforms.h \
+           src/rippleeffect.h \
+           src/sobel.h \
+           src/watershed.h \
+           src/watershedsegmenter.h
 FORMS += edgedetectwindow.ui \
          featuredetectwindow.ui \
          featurewindow.ui \
          imageholder.ui \
          imagewidget.ui \
          mainwindow.ui
-SOURCES += Canny.cpp \
-           Cartoonifier.cpp \
-           cornerfinder.cpp \
-           edgedetectwindow.cpp \
-           facerecognizer.cpp \
-           featuredetector.cpp \
-           featurewindow.cpp \
-           filters.cpp \
-           grabcut.cpp \
-           imagehandler.cpp \
-           imageholder.cpp \
-           laplace.cpp \
-           main.cpp \
-           mainwindow.cpp \
-           morpher.cpp \
-           pixelate.cpp \
-           projectivetransforms.cpp \
-           rippleeffect.cpp \
-           sobel.cpp \
-           watershed.cpp \
-           watershedsegmenter.cpp
+SOURCES += src/Canny.cpp \
+           src/Cartoonifier.cpp \
+           src/cornerfinder.cpp \
+           src/edgedetectwindow.cpp \
+           src/facerecognizer.cpp \
+           src/featuredetector.cpp \
+           src/featurewindow.cpp \
+           src/filters.cpp \
+           src/grabcut.cpp \
+           src/imagehandler.cpp \
+           src/imageholder.cpp \
+           src/laplace.cpp \
+           src/main.cpp \
+           src/mainwindow.cpp \
+           src/morpher.cpp \
+           src/pixelate.cpp \
+           src/projectivetransforms.cpp \
+           src/rippleeffect.cpp \
+           src/sobel.cpp \
+           src/watershed.cpp \
+           src/watershedsegmenter.cpp
 
 LIBS += -L$$/usr/local/lib -l:libopencv_imgproc.so.3.0 \
 -l:libopencv_flann.so.3.0\
