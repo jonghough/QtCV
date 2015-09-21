@@ -10,7 +10,9 @@ Dependencies
 
 [Opencv_contrib](https://github.com/itseez/opencv_contrib)
 
-Project built using Qt 5.x
+Project built Qt Creator 3.0.1 and Qt 5.2.1
+
+Project built and tested in Linux  (Ubuntu 14.x) environment.
 
 ##Purpose
 The project contains OpenCV algorithm samples, taken from various sources. The purpose is to keep a repository of useful algorithms and sample applications of algorithms, and to keep a reference project showing how to integrate Qt with OpenCV.
