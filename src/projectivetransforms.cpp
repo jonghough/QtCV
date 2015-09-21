@@ -57,43 +57,4 @@ Mat transformB(const Mat& image){
 }
 
 
-/**
- * Not really a useful function.
- * @brief foldCenter
- * @param image
- * @return
- */
-Mat foldCenter(const Mat& image){
-    cv::Mat m1 = transformA(image);
-    cv::Mat m2 = transformB(image);
-    //the output
-    cv::Mat dst;
-    image.copyTo(dst);
-    //merge m1 with m2 -> dst
-    for (int i = 0; i < image.cols; i += 1) {
-        for (int j = 0; j < image.rows; j += 1) {
-            if(i < 0.5f * image.cols){
-                dst.at < cv::Vec3b > (j, i)[0] = m1.at < cv::Vec3b
-                    > (j, i)[0];
 
-                dst.at < cv::Vec3b > (j, i)[1] = m1.at < cv::Vec3b
-                    > (j, i)[1];
-
-                dst.at < cv::Vec3b > (j, i)[2] = m1.at < cv::Vec3b
-                    > (j, i)[2];
-            }
-            else{
-                dst.at < cv::Vec3b > (j, i)[0] = m2.at < cv::Vec3b
-                        > (j, i)[0];
-
-                dst.at < cv::Vec3b > (j, i)[1] = m2.at < cv::Vec3b
-                        > (j, i)[1];
-
-                dst.at < cv::Vec3b > (j, i)[2] = m2.at < cv::Vec3b
-                        > (j, i)[2];
-            }
-        }
-    }
-
-    return dst;
-}

@@ -8,6 +8,5 @@
 using namespace cv;
 Mat transformA(const Mat& image);
 Mat transformB(const Mat& image);
-Mat foldCenter(const Mat& image);
 
 #endif // PROJECTIVETRANSFORMS_H

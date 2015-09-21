@@ -4,12 +4,16 @@
 
 using namespace cv;
 
+/***
+ * These are not standard fishEye or barrel lens algorithms.
+ * */
+
 /**
- * @brief barrel lens effect.
+ * @brief fishEye lens effect.
  * @param image
  * @return
  */
-Mat barrel(const Mat& image){
+Mat fishEye(const Mat& image){
         int cols, rows;
         cols = image.cols;
         rows = image.rows;
@@ -71,11 +75,11 @@ Mat barrel(const Mat& image){
 
 
 /**
- * @brief fishEye
+ * @brief barrel
  * @param image
  * @return
  */
-Mat fishEye(const Mat& image){
+Mat barrel(const Mat& image){
         int cols, rows;
         cols = image.cols;
         rows = image.rows;
