@@ -38,3 +38,7 @@ Some algorithms were taken and / or modified from
 *OpenCV 2 Computer Vision Application Programming Cookbook*
 
 *Mastering OpenCV*
+
+## Example
+
+![Miyajima torii](/miyajima.png?raw=true "Miyajima torii)
