@@ -41,4 +41,4 @@ Some algorithms were taken and / or modified from
 
 ## Example
 
-![Miyajima torii](/miyajima.png?raw=true "Miyajima torii)
+![Miyajima torii](/miyajima.png?raw=true "Miyajima torii")
